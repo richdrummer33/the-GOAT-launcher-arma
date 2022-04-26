@@ -263,6 +263,8 @@ class BaseSoundModeType;
 			"goatLauncherTube_reg_140Rnd_PaintBall_blau"
 		};
 		
+		reloadMagazineSound[] = { "\@GoatLauncherTube\addons\GoatLauncherTube\sounds\goatLoad.wav", 1, 1, 30};
+
 		modes[] = {Single, Auto};
 		
 		class Single: Mode_SemiAuto
@@ -391,19 +393,19 @@ class CfgAmmo {
 		soundFly[]={"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat_scream_loop.wav", 1, 1, 1700};
 		explosionEffects = "BombExplosion";
 		explosionType = "explosive";
-		explosive = 1;
+		explosive = 0.7;
 		explosionSoundEffect = "DefaultExplosion";
-		explosionForceCoef = 1;
-		explosionEffectsRadius = 5;
+		explosionForceCoef = 10;
+		explosionEffectsRadius = 60;
 		manualControl = 1;
 		maxControlRange = 1000;
 		maxSpeed = 200; 
-		typicalSpeed = 200;
+		typicalSpeed = 500;
 		CraterEffects = "BombCrater";
 		craterShape = "";
-		hit = 2;//
-		indirectHit = 2;
-		indirectHitRange = 4;
+		hit = 1000;//
+		indirectHit = 90;
+		indirectHitRange = 10;
 		hitArmor[] = {"soundHit",1};
 		hitBuilding[] = {"soundHit",1};
 		hitConcrete[] = {"soundHit",1};
