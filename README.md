@@ -1,5 +1,8 @@
 # The GOAT
 
+# Youtube
+[![Watch the video](https://img.youtube.com/vi/Je69DjjMOw4/hqdefault.jpg)](https://youtu.be/Je69DjjMOw4?si=6nMHg46ae19BIUN8)
+
 ## Product Description
 
 The GOAT gives the enemy something to think about – they can no longer employ traditional tactics when faced with the GOAT. This unique weaponry will force them to reconsider their grasp on reality, putting the odds in your favor. It is best in class for dismounted troops in all environments and terrain - providing the power of livestock when you need it most.
@@ -27,7 +30,3 @@ Select "GOAT" from the rocket menu in the inventory selection. The ammo is calle
 
 # Arma Mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2796179811
-
-# Youtube
-[![Watch the video](https://img.youtube.com/vi/Je69DjjMOw4/hqdefault.jpg)](https://youtu.be/Je69DjjMOw4?si=6nMHg46ae19BIUN8)
-
