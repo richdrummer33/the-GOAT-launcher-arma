@@ -22,7 +22,7 @@ The GOAT will keep the enemy on their toes through deception. Thinking they are 
 
 "I used to think livestock were just for farms. Now I see they're also for battlefield dominance. The GOAT launcher is a game-changer!" - General Norman Schwarzkopf
 
-"Deploying the GOAT launcher has made our enemies question their reality. Truly the greatest of all time... nothing else even close." - General Douglas MacArthur
+"Deploying the GOAT launcher has made our enemies question their reality. Truly the greatest of all time... nothing else even comes close." - General Douglas MacArthur
 
 ## Features
 
