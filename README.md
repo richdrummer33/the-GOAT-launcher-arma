@@ -16,12 +16,6 @@ The GOAT will keep the enemy on their toes through deception. Thinking they are 
 
 ## Reviews
 
-## Reviews
-
-## Reviews
-
-## Reviews
-
 <p>"With the GOAT launcher, the enemy won't know what hit them. This is truly the Greatest Of All Time."<br>
 - General Jim Faddis</p>
 
