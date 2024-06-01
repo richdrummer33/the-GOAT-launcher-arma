@@ -14,6 +14,16 @@ Extremely flexible, the GOAT can attack from almost any position, from up high i
 
 The GOAT will keep the enemy on their toes through deception. Thinking they are being approached by mere livestock, they will not attempt to evade and will become subject to the destructive force of the GOAT.
 
+## Reviews
+
+"With the GOAT launcher, the enemy won't know what hit them. This is truly the Greatest Of All Time." - General Jim Faddis
+
+"Never thought I'd see the day where a goat could outsmart a tank. The GOAT launcher is brilliant!" - General Dwight D. Eisenhower
+
+"I used to think livestock were just for farms. Now I see they're also for battlefield dominance. The GOAT launcher is a game-changer!" - General Norman Schwarzkopf
+
+"Deploying the GOAT launcher has made our enemies question their reality. Truly the greatest of all time... and it’s not even close." - General Douglas MacArthur
+
 ## Features
 
 - Bespoke goat loading SFX
