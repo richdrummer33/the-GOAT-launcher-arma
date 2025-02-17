@@ -28,11 +28,11 @@
 	 class RB_Goat_LauncherTube_Closure_SoundShader
 	 {//you can use wav/wss/ogg, ogg will have a small delay before playback (not too good for weapons/explosions)
 		 samples[] = {  
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\pipedrum1.wav",1}, // Last param is probability (if all samples are set to 1, then all are equally likely)
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\pipedrum2.wav",1},
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\pipedrum3.wav",1},
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\pipedrum4.wav",1},
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\pipedrum1.ogg",1}
+			 {"\GoatLauncherTube\sounds\pipedrum1.wav",1}, // Last param is probability (if all samples are set to 1, then all are equally likely)
+			 {"\GoatLauncherTube\sounds\pipedrum2.wav",1},
+			 {"\GoatLauncherTube\sounds\pipedrum3.wav",1},
+			 {"\GoatLauncherTube\sounds\pipedrum4.wav",1},
+			 {"\GoatLauncherTube\sounds\pipedrum1.ogg",1}
 		 };
 
 		 volume = 1.0; //more info on this and other soundShader parameters are in the relevant wiki pages on soundShaders
@@ -42,9 +42,9 @@
 	 class RB_Goat_LauncherTube_closeShot_SoundShader
 	 {
 		 samples[] = {
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"\@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"\GoatLauncherTube\sounds\goat1.wav",1},
+			 {"\GoatLauncherTube\sounds\goat2.wav",1},
+			 {"\GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 		
 		 volume = 1.0;
@@ -54,9 +54,9 @@
 	 class RB_Goat_LauncherTube_midShot_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = 0.7943282;
@@ -66,9 +66,9 @@
 	 class RB_Goat_LauncherTube_distShot_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = 1.0;
@@ -80,9 +80,9 @@
 	 class RB_Goat_LauncherTube_tailInterior_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "interior";
@@ -92,9 +92,9 @@
 	 class RB_Goat_LauncherTube_tailTrees_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*trees/3";
@@ -104,9 +104,9 @@
 	 class RB_Goat_LauncherTube_tailForest_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*forest/3";
@@ -116,9 +116,9 @@
 	 class RB_Goat_LauncherTube_tailMeadows_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
@@ -128,9 +128,9 @@
 	 class RB_Goat_LauncherTube_tailHouses_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*houses/3";
@@ -140,9 +140,9 @@
 	 class RB_Goat_LauncherTube_silencerShot_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = 1.0;
@@ -152,9 +152,9 @@
 	 class RB_Goat_LauncherTube_silencerTailForest_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*forest/3";
@@ -165,9 +165,9 @@
 	 class RB_Goat_LauncherTube_silencerTailHouses_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*houses/3";
@@ -178,9 +178,9 @@
 	 class RB_Goat_LauncherTube_silencerTailInterior_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "interior";
@@ -191,9 +191,9 @@
 	 class RB_Goat_LauncherTube_silencerTailMeadows_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1}
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1}
 		 };
 
 		 volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
@@ -204,9 +204,9 @@
 	 class RB_Goat_LauncherTube_silencerTailTrees_SoundShader
 	 {
 		 samples[] = {
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat1.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat2.wav",1},
-			 {"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat3.wav",1},
+			 {"GoatLauncherTube\sounds\goat1.wav",1},
+			 {"GoatLauncherTube\sounds\goat2.wav",1},
+			 {"GoatLauncherTube\sounds\goat3.wav",1},
 		 };
 
 		 volume = "(1-interior/1.4)*trees/3";
