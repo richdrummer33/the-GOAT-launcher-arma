@@ -263,7 +263,7 @@ class BaseSoundModeType;
 			"goatLauncherTube_reg_140Rnd_PaintBall_blau"
 		};
 		
-		reloadMagazineSound[] = { "\@GoatLauncherTube\addons\GoatLauncherTube\sounds\goatLoad.wav", 1, 1, 30};
+		reloadMagazineSound[] = { "\GoatLauncherTube\sounds\goatLoad.wav", 1, 1, 30};
 
 		modes[] = {Single, Auto};
 		
