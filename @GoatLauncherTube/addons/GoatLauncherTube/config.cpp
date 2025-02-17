@@ -390,7 +390,7 @@ class CfgAmmo {
 	class goatLauncherTube_Caseless_blau : M_NLAW_AT_F { // Goat round
 		model = "\A3\animals_f_beta\Goat\Goat_F.p3d";
 		timeToLive = 40;
-		soundFly[]={"@GoatLauncherTube\addons\GoatLauncherTube\sounds\goat_scream_loop.wav", 1, 1, 1700};
+		soundFly[]={"GoatLauncherTube\sounds\goat_scream_loop.wav", 1, 1, 1700};
 		explosionEffects = "BombExplosion";
 		explosionType = "explosive";
 		explosive = 0.7;
